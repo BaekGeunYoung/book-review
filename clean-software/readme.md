@@ -4,7 +4,7 @@
 
 * 2004년에 출간된 본 책은 **클린 소프트웨어**라는 이름으로 2017년에 복간되기도 했습니다.
 
-![image](../../images/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EA%B0%9C%EB%B0%9C%EC%9D%98%EC%A7%80%ED%98%9C.jpg)
+![image](./images/%EC%86%8C%ED%94%84%ED%8A%B8%EC%9B%A8%EC%96%B4%EA%B0%9C%EB%B0%9C%EC%9D%98%EC%A7%80%ED%98%9C.jpg)
 
 ![book2](./images/cleansoftware.jpg)
 
