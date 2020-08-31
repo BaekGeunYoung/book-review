@@ -15,7 +15,7 @@ DIP를 지켜야 하는 근본적인 이유를 알기 위해선 상위 수준의
 
 DIP를 지키지 않고 의존성이 아래로 향하는, 즉 상위 수준 모듈이 하위 수준 모듈에 의존하는 형태가 위험한 이유는 의존성이 이행적(transitive)인 성격을 띠기 때문이다.
 
-![transitive](https://github.com/BaekGeunYoung/book-Agile-Software-development/blob/master/images/transitive_dep.PNG)
+![transitive](../../images/transitive_dep.PNG)
 
 위 구조는 기능별로 layer의 분리는 확실히 되어 있지만, transitive한 의존성으로 인해 가장 상위의 모듈인 policy layer는 하위 모듈의 변경에 상당히 취약하게 된다. 결국 힘겹게 layer를 분리해서 얻는 이점이 사라질 것이다.
 
@@ -33,7 +33,7 @@ DIP의 해석에 대한 간단한 휴리스틱은 '추상화에 의존하자'이
 
 DIP에서 말하는 역전은 의존 관계에 대한 것이기도 하지만, 소유권에 관한 것이기도 하다. 위와 같이 구체적인 것에 의존하지 않고 인터페이스에 의존하도록 의존 관계를 역전하면 아래와 같이 자연스럽게 상위 모듈이 자신이 의존하는 클래스의 인터페이스를 소유하는 경향을 띠게 된다.
 
-![dip](https://github.com/BaekGeunYoung/book-Agile-Software-development/blob/master/images/dip.PNG)
+![dip](../../images/dip.PNG)
 
 상위 모듈은 자신이 의존하는 모듈의 인터페이스를 직접 소유함으로써 크게 보았을 때 의존성이 아래로 향하는 것을 막을 수 있고, 반대로 하위 모듈은 그 인터페이스를 구현하는 방식으로 상위 모듈에 의존하기 때문에 의존성의 방향이 위로 향하게 된다.
 
@@ -49,4 +49,4 @@ DIP를 설명하기 위한 예시로 Button 클래스와 Lamp 클래스 간 의�
 
 > DDD에서 접했던 '심층 모델로의 도약'과 비슷한 얘기를 하고 있다. 심층적인 도메인 모델을 만들기 위해 끊임없이 노력해야 한다는 부분이 조금은 막연하게 느껴졌었는데, 구체적으로 DIP와 관련지어서 생각해볼 수 있어서 DDD에서 의미하는 바가 무엇이었는지 조금 더 깊이 생각할 수 있게 되었다.
 
-![dip2](https://github.com/BaekGeunYoung/book-Agile-Software-development/blob/master/images/dip2.PNG)
+![dip2](../../images/dip2.PNG)

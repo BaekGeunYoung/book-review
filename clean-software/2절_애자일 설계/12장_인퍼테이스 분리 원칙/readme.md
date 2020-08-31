@@ -4,11 +4,11 @@
 
 ## 예시: ATM 사용자 인터페이스
 
-![isp](https://github.com/BaekGeunYoung/book-Agile-Software-development/blob/master/images/isp.PNG)
+![isp](../../images/isp.PNG)
 
 위 상황은 ISP가 지양하는 바로 그 상황이다. 각각의 Transaction 파생 클래스들은 모두 하나의 UI 인터페이스에 의존하게 되는데, 자신이 사용하지 않는 메소드에 의존하게 될 수 밖에 없으며 UI의 일부 메소드의 변경에 대한 영향이 이 UI에 의존하는 모든 Transaction 객체로 퍼져나가게 된다. 그래서 ISP를 적용한 올바른 형태는 아래와 같이 된다.
 
-![isp2](https://github.com/BaekGeunYoung/book-Agile-Software-development/blob/master/images/isp2.PNG)
+![isp2](../../images/isp2.PNG)
 
 각 클라이언트는 자신이 직접 사용하는 메소드들에만 의존하고 있으므로 하위 모듈에서의 변경은 그 파급력을 최소화할 수 있다. 
 

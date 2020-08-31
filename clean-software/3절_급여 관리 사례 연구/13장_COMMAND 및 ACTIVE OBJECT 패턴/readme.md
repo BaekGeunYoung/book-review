@@ -14,7 +14,7 @@ public interface Command {
 
 Command 패턴을 활용할 수 있는 적절한 예시는 이번 절에서 소개하게 될 급여 관리 사례에서 등장하는 Transaction 클래스이다. 급여 관리 사례를 연구하면서 많은 종류의 Transcation 파생 클래스를 보게 될텐데, 그 중 하나인 AddEmployeeTransaction의 예를 들어보면 이 클래스가 작동하는 구조는 다음과 같다.
 
-![command](https://github.com/BaekGeunYoung/book-Agile-Software-development/blob/master/images/command.PNG)
+![command](../../images/command.PNG)
 
 AddEmployeeTransaction 클래스는 Transaction 기반 클래스를 상속하여 validate()와 execute() 함수를 그 목적에 맞게 작성한다.
 
